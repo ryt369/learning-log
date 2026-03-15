@@ -14,5 +14,7 @@
 -   git checkout + 名字 ：切换到该名字的分支
 -   git branch ：查看所在的分支
 -   git merge : 在不冲突的情况下把分支合并到主干，若冲突则需手动修改，并删除<<<<<<<<<, ========, >>>>>>>>>之类的冲突标志符。
+-   git reset ：撤销add
+-   git reset --soft HEAD~1 ：撤销commit如果代码有问题或-m写错了
 
 - 掌握了这些git应该算基本小成了吧
